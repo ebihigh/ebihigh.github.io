@@ -1,15 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #1e1e2f; /* Cyberpunk theme */
+    font-family: 'Arial', sans-serif;
+    background-color: #0f0f15; /* Dark background */
     color: #e0e0e0;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #282a36; /* Darker background */
+    background-color: #111; /* Darker background */
     padding: 20px;
     text-align: center;
+    border-bottom: 2px solid #ff79c6; /* Pink underline */
 }
 
 nav ul {
@@ -23,13 +24,19 @@ nav ul li {
 }
 
 nav a {
-    color: #ff79c6; /* Pink color */
+    color: #ff79c6; /* Neon pink */
     text-decoration: none;
 }
 
 .profile {
     text-align: center;
     margin: 20px 0;
+}
+
+.profile-pic {
+    width: 150px; /* Adjust the size of the profile picture */
+    border-radius: 50%;
+    border: 2px solid #ff79c6; /* Pink border */
 }
 
 .projects {
@@ -45,13 +52,30 @@ nav a {
     margin: 20px 0;
 }
 
+.theme-pic {
+    width: 100%; /* Make the theme picture responsive */
+    max-width: 600px; /* Limit maximum width */
+    margin: 10px 0;
+}
+
 .intro-apps-media {
     text-align: center;
     margin: 20px 0;
 }
 
+.intro-apps-media img {
+    width: 100%; /* Make images responsive */
+    max-width: 300px; /* Limit maximum width */
+    margin: 10px;
+}
+
+video {
+    width: 100%; /* Make the video responsive */
+    max-width: 600px; /* Limit maximum width */
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #282a36;
+    background-color: #111;
 }
